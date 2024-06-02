@@ -1,0 +1,39 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+h1{
+    color: antiquewhite;
+    font-size: 45px;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(157, 180, 173);
+}
+.Shopping1{
+    display: flex;
+    justify-content: end;
+}
+.Imagenin{
+    display: flex;
+    justify-content: center;
+}
+.New{
+    margin: 0px 15px;
+}
+.Logo{
+    height: 10%;
+    width: 9%;
+}
