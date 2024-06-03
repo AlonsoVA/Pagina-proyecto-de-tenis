@@ -8,7 +8,7 @@ nav{
     font-weight: bold;
 }
 h1{
-    color: antiquewhite;
+    color: #DAC0A3;
     font-size: 45px;
 }
 ul li{
@@ -16,11 +16,11 @@ ul li{
     padding: 0px 20px;
 }
 a{
-    color: antiquewhite;
+    color: #DAC0A3;
     text-decoration: none;
 }
 a:hover{
-    color: rgb(157, 180, 173);
+    color: rgb(99, 49, 8);
 }
 .Shopping1{
     display: flex;
@@ -34,6 +34,32 @@ a:hover{
     margin: 0px 15px;
 }
 .Logo{
-    height: 10%;
+    height: 9%;
     width: 9%;
+}
+.Contenedor1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    background-color: #F6F5F2;
+    opacity: 80%;
+    display: flex;
+}
+.Shopping{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.Contenedor2{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    background-color: #F6F5F2;
+}
+.Jordan{
+    height: 5%;
+    width: 40%;
 }
