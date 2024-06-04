@@ -61,5 +61,24 @@ a:hover{
 }
 .Jordan{
     height: 5%;
-    width: 40%;
+    width: 22%;
+    float: left;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: end;
+}
+.Contenedor2{
+    color: beige;
+    padding: 20px;
+    border: 5px;
+    border-radius: 3%;
+}
+.TextJ{
+    color: blue;
+    font-size: 16px;
+    padding: 10%;
+    text-align: center;
+    align-self: center;
 }
