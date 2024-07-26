@@ -202,6 +202,17 @@ a:hover{
     justify-content: space-between
 }
 
+@media (max-width: 600px) {
+    .Teniscontenedor {
+        flex-direction: column; /* Cambia la dirección de los elementos a columna */
+        align-items: center; /* Centra los elementos horizontalmente */
+    }
+
+    .Teniscontenedor .item {
+        width: 100%; /* Los elementos tomarán el 100% del ancho del contenedor */
+    }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 /* Variables */
 :root{
