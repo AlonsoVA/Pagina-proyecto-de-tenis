@@ -1,0 +1,162 @@
+/*El inicio del header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    padding: 20px;
+    background-color: transparent;
+    margin: 20px; /* Añadir márgenes para despejar el header de las orillas */
+    border-radius: 50px; /* Ajustar el border-radius */
+    box-sizing: border-box; /* Para incluir padding en el cálculo del ancho total */
+    width: calc(100% - 40px); /* Ajustar el ancho para tener en cuenta los márgenes */
+    position: relative;
+    width: 98%;
+    height: 300px; /* Ajusta la altura según sea necesario */
+    overflow: hidden;
+}
+
+.Login-button
+.new-button{
+  color: #000000;
+  padding: 8px;
+  font-size: 1em;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  border-radius: 20px;
+  transition: background-color 0.7s ease-in-out;
+}
+
+.header-left,
+.header-right{
+    display: flex;
+}
+
+.Login-button{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000; /* Color del texto */
+    padding: 8px 9px;
+    border: 2px solid #fff; /* Color del borde */
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 10px;
+    background-color:#F1F1F1;
+}
+
+.Login-button span {
+    margin-right: 10px;
+}
+
+.Login-button svg {
+    width: 10px;
+    height: 10px;
+    fill: currentColor;
+}
+
+.Login-button:hover {
+    background-color: #BBBBBB; /* Color de fondo al pasar el cursor */
+    color: #fff; /* Color del texto al pasar el cursor */
+}
+
+.Login-button:active {
+    background-color: #555; /* Color de fondo al hacer clic */
+}
+
+.new-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000; /* Color del texto */
+    padding: 8px 9px;
+    border: 2px solid #fff; /* Color del borde */
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 10px;
+    background-color:#F1F1F1;
+}
+
+.new-button span {
+    margin-right: 10px;
+}
+
+.new-button svg {
+    width: 10px;
+    height: 10px;
+    fill: currentColor;
+}
+
+.new-button:hover {
+    background-color: #BBBBBB; /* Color de fondo al pasar el cursor */
+    color: #fff; /* Color del texto al pasar el cursor */
+}
+
+.new-button:active {
+    background-color: #555; /* Color de fondo al hacer clic */
+}
+
+.Center{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #F1F1F1; /* Color del texto */
+    padding: 10px 20px;
+    border: 2px solid #000; /* Color del borde */
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 10px;
+    background-color: #000; /* Color de fondo al pasar el cursor */
+    color: #fff; /* Color del texto al pasar el cursor */
+}
+
+.Center span {
+    margin-right: 10px;
+}
+
+.Center svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+.Centern:active {
+    background-color: #555; /* Color de fondo al hacer clic */
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#myVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Coloca el video detrás del contenido */
+}
+
+.Logo{
+    width: 100px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    height: 100hv;
+    width: 100vw;
+    background-color: #F5F0E3;
+}
