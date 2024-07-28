@@ -3,8 +3,36 @@
     <body>
         <head>
             <link rel="stylesheet" href="Diseñofav.css">
+            <script src="/New-tshsirts/backend.js"></script>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>New-launches</title>
+            <script>
+                function loadFavorite() {
+                    const favoriteCard = localStorage.getItem('favoriteCard');
+                    if (favoriteCard) {
+                        document.getElementById('favorites-container').innerHTML = favoriteCard;
+                    }
+                }
+        
+                window.onload = loadFavorite;
+
+                        // Función para eliminar el contenido
+        function clearContent() {
+            const content = document.getElementById('contentToDelete');
+            if (content) {
+                content.remove().innerHTML = content;
+                localStorage.setItem('isContentDeleted', 'true');
+            }
+        }
+
+        function clearContentee() {
+            const content = document.getElementById('contentToDeletee');
+            if (content) {
+                content.remove().innerHTML = content;
+                localStorage.setItem('isContentDeleted', 'true');
+            }
+        }
+            </script>
         </head>
 
         <header style="justify-content: space-between;">
@@ -39,5 +67,8 @@
             </video>
 
         </header>
+
+        <div id="favorites-container"></div>
+
     </body>
 </html>
